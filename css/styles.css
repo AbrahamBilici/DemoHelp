@@ -61,3 +61,44 @@ h1, h2 {
     transition: 0.3s ease-in-out;
 }
 
+
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab-link {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.active {
+    display: block;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.cert-item img {
+    width: 80px;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.cert-item:hover {
+    transform: scale(1.1);
+}
