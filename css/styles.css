@@ -25,6 +25,37 @@ h1, h2 {
     }
 }
 
+.job {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #0073e6;
+    margin-bottom: 10px;
+}
+.btn {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.cert-item img {
+    width: 80px;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.cert-item:hover {
+    transform: scale(1.1);
+}
+
 .cert-item:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
